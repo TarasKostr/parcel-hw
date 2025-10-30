@@ -1,0 +1,2 @@
+let e=document.querySelector(".calculator"),t=document.querySelector(".fst"),u=document.querySelector(".snd"),l=document.querySelector("#op"),o=document.querySelector(".result");e.addEventListener("submit",e=>{e.preventDefault();let n=Number(t.value),r=Number(u.value);(console.log(t.value,u.value,l.value,o),"+"===l.value)?o.textContent="Result:"+(n+r):"-"===l.value?o.textContent="Result:"+(n-r):"/"===l.value?o.textContent="Result:"+n/r:"*"===l.value&&(o.textContent="Result:"+n*r)});
+//# sourceMappingURL=parcel-hw.7c1c5fa6.js.map
